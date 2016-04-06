@@ -13,9 +13,9 @@ $(document).ready(function() {
     $('#four').fadeTo(300,.25);
   });
 
-  $('li').on('click', fuction() {
-    $('this').css
-  )};
+  $('li').on('click', function() {
+    $(this).css('background-color','salmon');
+  });
 
 
   $('#one').on('mouseleave',function(){
